@@ -5,7 +5,8 @@
    <li>Tema: Bookshelf Apps</li>
    <li>Judul: Komik.In Ajah!</li>
    <li>Deskripsi: Sistem informasi berbasis website untuk mengelola buku baca seputar komik.</li>
-   <li>Fitur: Login, Register, Kelola Data Komik (Menambah, Membaca, Mengedit, dan Menghapus).</li>
+   <li>Pengguna : Admin dan User</li>
+   <li>Fitur: Login, Kelola Data Komik (Menambah, Membaca, Memindah, Mencari, dan Menghapus).</li>
 </ul>
 
 ### Panduan Penggunaan
