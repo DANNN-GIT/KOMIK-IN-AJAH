@@ -11,13 +11,13 @@
 
 ### Panduan Penggunaan
 <ol>
-   <li>Administrator<uL>
+   <li><b>Administrator</b><uL>
       <li>Login menggunakan username (dicoding@komikin.com) dan password (admin).</li>
       <li>Menambah buku baca komik.</li>
       <li>Melakukan pencarian buku menggunakan fitur search sesuai dengan judul buku.</li>
       <li>Menghapus buku komik.</li>
    </ul></li>
-   <li>User<uL>
+   <li><b>User</b><uL>
       <li>Login menggunakan username (ahmadwildan@komikin.com) dan password (user).</li>
       <li>Membaca buku dan memindahkan buku antar rak</li>
       <li>Melakukan pencarian buku menggunakan fitur search sesuai dengan judul buku.</li>
