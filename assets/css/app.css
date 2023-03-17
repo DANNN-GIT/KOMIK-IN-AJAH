@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&display=swap');
+
+* {
+   margin: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+   font-family: 'Montserrat', sans-serif;
+}
+body {
+   background-image: url('../images/y-so-serious-white.png');
+}
+main .box-form {
+   width: 40%;
+   overflow: auto;
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   backdrop-filter: blur(2px);
+   padding: 50px 0px;
+   border: 8px solid #f6f6f6;
+   border-radius: 10px;
+}
+main .box-form h1 {
+   font-family: 'Kaushan Script', cursive;
+   font-size: 4em;
+   margin-bottom: 6%;
+   color: #2b2b2b;
+}
+main .box-form h1 span {
+   font-family: 'Kaushan Script', cursive;
+   color: cornflowerblue;
+}
+main .box-form p {
+   font-size: large;
+   margin-bottom: 10%;
+   font-weight: 500;
+}
+main .box-form .box-input {
+   margin-bottom: 6%;
+}
+main .box-form .box-input input {
+   padding: 10px;
+   width: 70%;
+   outline: none;
+   border: none;
+   background: transparent;
+   border-bottom: 2px solid black;
+   border-radius: 2px;
+   transition: .5s;
+   font-size: medium;
+}
+main .box-form .box-input input:focus {
+   border-bottom: 2px solid cornflowerblue;
+}
+main .box-form a {
+   text-decoration: none;
+}
+main .box-form button {
+   margin-top: 6%;
+   width: 70%;
+   padding: 6px;
+   border: 2px solid #2b2b2b;
+   border-radius: 4px;
+   font-size: large;
+   background-color: #2b2b2b;
+   color: white;
+   cursor: pointer;
+   transition: .5s;
+}
+main .box-form button:hover {
+   background-color: cornflowerblue;
+   border: 2px solid cornflowerblue;
+}
+main .box-form button:active {
+   transform: scaleX(0.9);
+}
+main .box-form form p {
+   margin-top: 6%;
+}
+main .box-form form p a {
+   color: cornflowerblue;
+   font-weight: 600;
+}
+main .box-form form p a:visited {
+   color: cornflowerblue;
+}
+#header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 24px 80px;
+   background-color: white;
+   box-shadow: 0px -10px 40px black;
+   border-bottom: 4px solid cornflowerblue;
+   border-bottom: 4px solid cornflowerblue;
+}
+#header h1 {
+   font-family: 'Kaushan Script', cursive;
+   color: #2b2b2b;
+}
+#header h1 span {
+   font-family: 'Kaushan Script', cursive;
+   color: cornflowerblue;
+}
+#header form input {
+   padding: 8px;
+   width: 280px;
+   text-align: center;
+   outline: none;
+   border: 2px solid #f1f1f1;
+   background-color: #f8f8f8;
+   transition: 0.4s;
+   font-size: medium;
+   border-radius: 4px;
+}
+#header form input:focus {
+   box-shadow: 0px 0px 6px 0px cornflowerblue;
+   width: 320px;
+}
+#header button {
+   padding: 8px 20px;
+   font-size: medium;
+   color: white;
+   font-weight: 500;
+   border-radius: 4px;
+   border: 2px solid crimson;
+   background-color: crimson;
+   cursor: pointer;
+   transition: 0.2s;
+}
+#header button:hover {
+   box-shadow: 0px 0px 6px 0px crimson;
+}
+main {
+   margin: 40px;
+}
+main #admin-content {
+   display: flex;
+   gap: 20px;
+   visibility: hidden;
+}
+main #user-content {
+   visibility: hidden;
+}
+main #admin-content .form-books,
+main #admin-content .data-books {
+   border: 1px solid black;
+   padding: 20px;
+   border-radius: 4px;
+   border: 4px solid #f1f1f1;
+   box-shadow: 0px 5px 10px 0px #f1f1f1;
+}
+main #admin-content .form-books {
+   width: 40%;
+   height: 400px;
+}
+main #admin-content .data-books {
+   width: 60%;
+}
+main #admin-content .form-books .flex-box-input {
+   display: flex;
+   gap: 20px;
+}
+main #admin-content .form-books h2,
+main #admin-content .data-books h2 {
+   margin-top: 2%;
+   margin-bottom: 6%;
+   font-weight: 500;
+}
+main #admin-content .form-books .box-input {
+   margin-bottom: 4%;
+   width: 50%;
+}
+main #admin-content .form-books #form-tambah-buku .box-input {
+   margin-bottom: 4%;
+   width: 100%;
+}
+main #admin-content .form-books .box-input label {
+   display: block;
+   margin-top: 4%;
+   margin-bottom: 4%;
+}
+main #admin-content .form-books .box-input input {
+   width: 100%;
+   padding: 10px;
+   border-radius: 4px;
+   outline: none;
+   border: 2px solid #f1f1f1;
+   background-color: #f8f8f8;
+   transition: .2s;
+}
+main #admin-content .form-books .box-input input:focus {
+   box-shadow: 0px 0px 6px 0px cornflowerblue;
+}
+main #admin-content .form-books button {
+   padding: 10px;
+   border: none;
+   background-color: cornflowerblue;
+   color: white;
+   border-radius: 4px;
+   cursor: pointer;
+   width: 30%;
+   margin-top: 2%;
+   font-weight: 500;
+   font-size: 14px;
+   margin-bottom: 2%;
+}
+main #admin-content .form-books button:last-child {
+   width: 18%;
+   background-color: crimson;
+}
+main #admin-content .data-books .books-card {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   justify-content: space-between;
+}
+main #admin-content .data-books .books-card .tampil-data-buku {
+   border: 2px solid #f1f1f1;
+   padding: 10px;
+   width: 48%;
+   text-align: center;
+}
+main #admin-content .data-books .books-card .tampil-data-buku .icons-komik {
+   font-size: 100px;
+   color: #2b2b2b;
+   padding: 40px 0px;
+   background-color: #f2f2f2;
+}
+main #admin-content .data-books .books-card .tampil-data-buku h3 {
+   margin-top: 6%;
+   margin-bottom: 4%;
+}
+main #admin-content .data-books .books-card .tampil-data-buku p {
+   line-height: 30px;
+   text-align: justify;
+}
+main #user-content .populer-book {
+   margin-top: 2%;
+   margin-bottom: 6%;
+   border: 4px solid #f8f8f8;
+   padding: 20px;
+   box-shadow: 0px 4px 10px 0px #d1d1d1;
+}
+main #user-content .populer-book .populer-book-card {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: baseline;
+   gap: 20px;
+}
+main #user-content .populer-book .populer-book-card .populer-book-item {
+   border: 4px solid #f1f1f1;
+   padding: 10px;
+   width: 23%;
+   text-align: center;
+}
+main #user-content .populer-book .populer-book-card .icons-komik {
+   font-size: 100px;
+   color: #2b2b2b;
+   padding: 40px 0px;
+   background-color: #f2f2f2;
+}
+main #user-content .populer-book .populer-book-card h3 {
+   margin-top: 6%;
+   margin-bottom: 4%;
+}
+main #user-content .populer-book .populer-book-card p {
+   line-height: 30px;
+   text-align: justify;
+}
+main #user-content .populer-book .populer-book-card .btn-baca-buku,
+main #admin-content .data-books .books-card .tampil-data-buku .btn-baca-buku {
+   padding: 8px;
+   border-radius: 4px;
+   border: none;
+   background-color: crimson;
+   color: white;
+   width: 100%;
+   font-weight: 500;
+   font-size: 14px;
+   margin-top: 6%;
+   cursor: pointer;
+}
+main #user-content .populer-book .populer-book-card .btn-baca-buku:hover {
+   box-shadow: 0px 0px 6px 0px crimson;
+}
